@@ -73,7 +73,6 @@ h3. FILE MANAGEMENT
 h3. FILE HANDLING
 
 | while read [variable]; do [command] $[variable]; done <[file] | Performs 'command' on each line in 'file', and displays output in terminal |
-| cat [file] | while read [variable]; do [command] $[variable] >> [newfile]; done | Performs 'command' on each line in 'file', and saves output in 'newfile' |
 
 
 h3. DIRECTORY MANAGEMENT
