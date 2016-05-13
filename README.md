@@ -31,10 +31,11 @@
 | Tab | Auto-complete files and folder names |
 
 ## CORE COMMANDS
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | cd ~ |  Home directory |
-| cd [folder] | Change directory e.g. ‘cd ~/folder/’ |
+| cd [folder] | Change directory e.g. `cd ~/folder/` |
 | cd ~  | Home directory, |
 | cd /  | Root of drive |
 | ls |Short listing |
@@ -51,6 +52,7 @@
 | reset |  Resets the terminal display |
 
 ## COMMAND HISTORY
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | history n |  Shows the stuff typed – add a number to limit the last n items |
@@ -59,14 +61,15 @@
 | !! |  Execute the last command typed |
 
 ## FILE MANAGEMENT
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | touch [file] |   Create new file |
 | pwd | Full path to working directory |
 | . |  Current folder, e.g. `ls .` |
 | .. | Parent/enclosing directory, e.g. `ls ..` |
-| ‘ls -l ..’ | Long listing of parent directory |
-| ‘cd ../../’ | Move 2 levels up |
+| `ls -l ..` | Long listing of parent directory |
+| `cd ../../` | Move 2 levels up |
 | cat | Concatenate to screen |
 | rm [file] |  Remove a file, e.g. `rm data.tmp` |
 | rm -i [file] | Remove with confirmation |
@@ -75,9 +78,10 @@
 | rm -i [file] |  Will display prompt before |
 | cp [file] [newfile] | Copy file to file |
 | cp [file] [dir] | Copy file to directory |
-| mv [file] [new filename] |  Move/Rename, e.g. mv -v [file] [dir] |
+| mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
 
 ## DIRECTORY MANAGEMENT
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | mkdir [dir] | Create new directory |
@@ -88,14 +92,15 @@
 | less |  Output content delivered in screensize chunks |
 | [command] > [file] |  Push output to file, keep in mind it will get overwritten |
 | [command] >> [file] | Append output to existing file |
-| [command] < [file|command] |  Tell command to read content from a file |
+| [command] < [file] |  Tell command to read content from a file |
 
 ## HELP
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | [command] -h |  Offers help |
 | [command] —help | Offers help |
 | info [command] | Offers help |
-| man [command] |  Show the help manual for ‘command’ |
-| whatis [command] | Gives a one-line description of ‘command’ |
+| man [command] |  Show the help manual for [command] |
+| whatis [command] | Gives a one-line description of [command] |
 
