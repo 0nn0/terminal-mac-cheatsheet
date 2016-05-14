@@ -6,6 +6,7 @@
 
 ------------
 
+
 ## SHORTCUTS
 
 | Key/Command | Description |
@@ -34,11 +35,11 @@
 
 | Key/Command | Description |
 | ----------- | ----------- |
-| cd ~ |  Home directory |
-| cd [folder] | Change directory e.g. `cd ~/folder/` |
-| cd ~  | Home directory, |
+| cd |  Home directory |
+| cd [folder] | Change directory e.g. `cd documents` |
 | cd /  | Root of drive |
-| ls |Short listing |
+| cd -  | Previous directory |
+| ls | Short listing |
 | ls -l | Long listing |
 | ls -a | Listing incl. hidden files |
 | ls -lh| Long listing with Human readable file sizes |
