@@ -79,6 +79,9 @@
 | cp [file] [newfile] | Copy file to file |
 | cp [file] [dir] | Copy file to directory |
 | mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
+| pbcopy < [file] | Copies file contents to clipboard |
+| pbpaste | Paste clipboard contents |
+| pbpaste > [file] | Past clipboard contents into file, `pbpaste > paste-test.txt` |
 
 ## DIRECTORY MANAGEMENT
 
