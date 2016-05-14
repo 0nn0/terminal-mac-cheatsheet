@@ -5,7 +5,8 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## ATALHOS
 
-{background:#ddd}. |_. Atalho |_. Descrição |
+| Atalho | Descrição |
+| ------ | ----------|
 | Ctrl + A | Ir para o início da linha em que você está digitando |
 | Ctrl + E | Vá para o final da linha em que você está digitando |
 | Ctrl + L | Limpa a tela |
@@ -27,6 +28,8 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## COMANDOS PRINCIPAIS
 
+| Atalho | Descrição |
+| ------ | ----------|
 | cd | Diretório Home |
 | cd [pasta] | Muda o diretório |
 | cd ~ | Diretório Home, ex.: 'cd ~/pasta/' |
@@ -47,6 +50,8 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## COMANDOS DE HISTÓTICO
 
+| Atalho | Descrição |
+| ------ | ----------|
 | history n | Mostra os comandos digitados - Quantos históricos serão exibidos a partir do último comando |
 | ctrl-r | Permite pesquisar através de comandos usados ​​anteriormente |
 | ![valor] | Execute o último comando digitado que começa com 'valor' |
@@ -55,6 +60,8 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## MANIPULANDO ARQUIVOS
 
+| Atalho | Descrição |
+| ------ | ----------|
 | touch [arquivo] | Cria um novo arquivo |
 | pwd | Caminho completo para o diretório de trabalho |
 | ls -l | Lista completa do diretório pai |
@@ -73,6 +80,8 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## MANIPULANDO DIRETÓRIOS
 
+| Atalho | Descrição |
+| ------ | ----------|
 | mkdir [diretorio] | Cria uma nova pasta |
 | mkdir -p [diretorio]/[diretorio] | Cria uma pasta com uma sub-pasta |
 | rmdir [diretorio] | Remove pasta ( esse comando só funciona se a pasta estiver vazia ) |
@@ -82,12 +91,16 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## PIPES - permite combinar vários comandos que geram saída
 
+| Atalho | Descrição |
+| ------ | ----------|
 | > [arquivo] | Gera um novo arquivos, lembrando que ela pode ser sobrescrita |
 | >> [arquivo] | Adiciona a saida ao arquivos |
 
 
 ## AJUDA
 
+| Atalho | Descrição |
+| ------ | ----------|
 | [comando] -h | Exibe ajuda do comando |
 | [comando] --help | Exibe ajuda do comando |
 | [comando] help | Exibe ajuda do comando |
@@ -97,4 +110,6 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## COMANDOS PARA GIT
 
+| Atalho | Descrição |
+| ------ | ----------|
 | [comando] git init | Inicia um projeto git na pasta atual. |
