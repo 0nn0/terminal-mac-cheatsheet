@@ -17,7 +17,6 @@
 | Command + K|Clears the Screen |
 | Ctrl + U  | Clears the line before the cursor position. If you are at the end of the line, clears the entire line. |
 | Ctrl + H  | Same as backspace |
-| Ctrl + R  | Lets you search through previously used commands |
 | Ctrl + C  | Kill whatever you are running |
 | Ctrl + D  | Exit the current shell when no process is running, or send EOF to a the running process |
 | Ctrl + Z  | Puts whatever you are running into a suspended background process. fg restores it. |
@@ -57,7 +56,7 @@
 | Key/Command | Description |
 | ----------- | ----------- |
 | history n |  Shows the stuff typed – add a number to limit the last n items |
-| ctrl-r  | Interactively search through previously typed commands |
+| Ctrl + r  | Interactively search through previously typed commands |
 | ![value] |  Execute the last command typed that starts with ‘value’ |
 | !! |  Execute the last command typed |
 
