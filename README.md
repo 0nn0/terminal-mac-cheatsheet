@@ -51,6 +51,15 @@
 | clear |  Clear screen |
 | reset |  Resets the terminal display |
 
+## CHAINING COMMANDS
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command-a]; [command-b] | Run command A and then B, regardless of success of A |
+| [command-a] && [command-b] | Run command B if A succeeded |
+| [command-a] || [command-b] | Run command B if A failed |
+| [command-a] & | Run command A in background |
+
 ## COMMAND HISTORY
 
 | Key/Command | Description |
