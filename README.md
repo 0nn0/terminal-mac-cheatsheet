@@ -103,4 +103,4 @@
 | info [command] | Offers help |
 | man [command] |  Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
-
+| apropos [search-pattern] | Searches for command with keywords in description |
