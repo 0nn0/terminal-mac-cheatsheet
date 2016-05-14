@@ -1,8 +1,8 @@
 # Terminal Cheatsheet for Mac (Basics)
 
-- [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/portugues)
-- [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/espanol)
-- [中文请参考](https://github.com/0nn0/terminal-mac-cheatsheet/中文请参考)
+- [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/espanol)
+- [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
+- [中文请参考](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/%E4%B8%AD%E6%96%87%E8%AF%B7%E5%8F%82%E8%80%83)
 
 ------------
 
