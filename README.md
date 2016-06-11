@@ -84,7 +84,6 @@
 | rm -i [file] | Remove with confirmation |
 | rm -r [dir] | Remove a directory and contents |
 | rm -f [file] | Force removal without confirmation |
-| rm -i [file] |  Will display prompt before |
 | cp [file] [newfile] | Copy file to file |
 | cp [file] [dir] | Copy file to directory |
 | mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |

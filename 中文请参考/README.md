@@ -73,7 +73,6 @@ Original translation by [kavlez](https://github.com/kavlez)
 | rm -i [file] | 移除时出现确认提示 |
 | rm -r [dir] | 移除文件及内容 |
 | rm -f [file] | 强制移除 |
-| rm -i [file] | 移除之前出现提示 |
 | cp [file] [newfile] | 复制文件 |
 | cp [file] [dir] | 复制文件到指定目录 |
 | mv [file] [new filename] | 移动/重命名, 例如 mv -v [file] [dir] |
