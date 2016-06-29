@@ -1,4 +1,4 @@
-# Terminal Cheatsheet for Mac (Basics)
+#  Terminal Cheatsheet for Mac (Basics)
 
 - [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/espanol)
 - [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
