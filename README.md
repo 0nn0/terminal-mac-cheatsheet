@@ -1,4 +1,4 @@
-#  Terminal Cheatsheet for Mac (Basics)
+# Terminal Cheatsheet for Mac (Basics)
 
 - [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/espanol)
 - [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
@@ -65,7 +65,7 @@
 
 | Key/Command | Description |
 | ----------- | ----------- |
-| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww | grep google
+| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google
 |
 
 
