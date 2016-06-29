@@ -61,7 +61,7 @@
 | [command-a] & | Run command A in background |
 
 
-## PASSING RESULT OF A COMMAND AS ARGUMENT TO  ANOTHER COMMAND (PIPING COMMANDS)
+## PIPING COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
