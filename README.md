@@ -65,7 +65,7 @@
 
 | Key/Command | Description |
 | ----------- | ----------- |
-| [command-a] | [command-b] | Run command A and then pass the result to command B e.g ps auxwww | grep google
+| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww | grep google
 |
 
 
