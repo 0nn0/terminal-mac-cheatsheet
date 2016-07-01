@@ -52,7 +52,7 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## KOMUT GEÇMİŞİ
 
-| Kısayol | Açıklama |
+| Anahtar | Komut |
 | ------ | ----------|
 | history n | Yazılan şeyler gösterir - son n öğeleri sınırlamak için bir numara ekler. |
 | ctrl-r | Etkileşimli önceden yazdığınız komutları ile arama. |
@@ -62,53 +62,44 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 
 ## DOSYA YÖNETİMİ
 
-| Kısayol | Açıklama |
+| Anahtar | Komut |
 | ------ | ----------|
 | touch [dosya] | Yeni dosya yaratır. |
 | pwd | Bulunulan dizinin tam yolu.  |
 | ls -l | Üst dizini uzun listeler. |
 | cd ../../ | Move dois niveis acima |
 | cat | Concatenar as telas |
-| rm [dosya] | Apaga dosyas, ex.: rm [dosya] [dosya] |
-| rm -i [dosya] | Deletar com comfirmação |
-| rm -r [dizin] | Apaga um diretório e seu conteúdo |
-| rm -f [dosya] | Força o apagar sem confirmação |
-| cp [dosya] [novo dosya copiado] | Copiar dosya |
-| cp [dosya] [dizin] | Copiar um dosya para outro diretorio |
-| mv [dosya] [novo nome] | Move/Renomeia, ex.: mv -v [dosya] [diretorio] |
+| rm [dosya] | Bir dosyayı sil, ex.: rm [dosya] [dosya] |
+| rm -i [dosya] | Onay ile dosya sil. |
+| rm -r [dizin] | Dizin ve içeriğini sil. |
+| rm -f [dosya] | Onay olmadan dosya sil |
+| cp [dosya] [yeni dosya] | Dosyaya dosyasını kopyalayın|
+| cp [dosya] [dir] | Dizinine dosyayı kopyalayın |
+| mv [dosya] [yeni dosya] | Taşı / yeniden adlandır |
 
 
-## MANIPULANDO DIRETÓRIOS
+## DİZİN YÖNETİMİ
 
-| Kısayol | Açıklama |
+| Anahtar | Komut |
 | ------ | ----------|
-| mkdir [diretorio] | Cria uma nova pasta |
-| mkdir -p [diretorio]/[diretorio] | Cria uma pasta com uma sub-pasta |
-| rmdir [diretorio] | Remove pasta ( esse komut só funciona se a pasta estiver vazia ) |
-| rm -R [diretorio] | Remove a pasta com todos os dosyas dentro |
-
-
-## PIPES - permite combinar vários komuts que geram saída
-
-| Kısayol | Açıklama |
-| ------ | ----------|
-| > [dosya] | Gera um novo dosyas, lembrando que ela pode ser sobrescrita |
-| >> [dosya] | Adiciona a saida ao dosyas |
+| mkdir [dir] | Yeni bir dizin oluşturun |
+| mkdir -p [dir]/[dir] | İç içe dizinleri oluşturun |
+| rmdir [dir] | Dizini kaldır |
+| rm -R [dir] | Dizin ve içeriğini kaldır |
+| [command] | [command] |	Çıktı üreten birden çok komutu birleştirmeyi sağlar. |
+| less | Az |
+| [command] > [file] | Dosyaya çıktı alır, üzerine yazılır alacak akılda tutmaz |
+| [command] >> [file] |	Mevcut dosyaya çıktıları ekler. |
+| [command] < [file] | Bir dosyanın içeriğini okumak için komutu girin. |
 
 
 ## YARDIM
 
-| Kısayol | Açıklama |
+| Anahtar | Komut |
 | ------ | ----------|
-| [komut] -h | Exibe ajuda do komut |
-| [komut] --help | Exibe ajuda do komut |
-| [komut] help | Exibe ajuda do komut |
-| reset | Reseta sua tela atual no terminal |
-| man [komut] | Exibe ajuda para o seu 'komut' |
-| whatis [komut] | Dá uma descrição de uma linha de 'komut' |
-
-## komutS PARA GIT
-
-| Kısayol | Açıklama |
-| ------ | ----------|
-| [komut] git init | Inicia um projeto git na pasta atual. |
+| [command] -h | Yardım |
+| [command] --help | Yardım |
+| info [command] | Yardım |
+| reset | Sıfırla |
+| man [command] | Yardım menüsünü göser. |
+| whatis [command] | Komutu tek bir satırla açıklar. |
