@@ -1,5 +1,5 @@
 # Terminal Hile Sayfası Mac (Temel)
-Original translation by [zeluizr](https://github.com/zeluizr)
+Original translation by [durul](https://github.com/durul)
 
 ------------
 
