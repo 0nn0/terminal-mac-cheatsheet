@@ -5,7 +5,7 @@
 - [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
 - [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
 - [Phiên bản tiếng việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/tieng-viet)
-- 
+
 ------------
 
 _Letters are shown capitalized for readability only._  _Capslock should be off._
