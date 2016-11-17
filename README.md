@@ -100,6 +100,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | rm -f [file] | Force removal without confirmation |
 | cp [file] [newfile] | Copy file to file |
 | cp [file] [dir] | Copy file to directory |
+| cp -av [dir] [dir] Copy directory and its content to new directory | ref link https://www.cyberciti.biz/faq/copy-folder-linux-command-line/
 | mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
