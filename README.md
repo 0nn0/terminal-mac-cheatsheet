@@ -102,6 +102,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | cp [file] [dir] | Copy file to directory |
 | cp -av [dir] [dir] | Copy directory and its content to new directory ref link https://www.cyberciti.biz/faq/copy-folder-linux-command-line/ |
 | mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
+| mv [directory] [directory] | Move/Rename directory to a new location |
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Past clipboard contents into file, `pbpaste > paste-test.txt` |
