@@ -9,16 +9,15 @@ Original translation by [durul](https://github.com/durul)
 | ------ | ----------|
 | Ctrl + A | Şu anda üzerinde yazdığını satırın başına git |
 | Ctrl + E | Şu anda üzerinde yazdığını satırın sonuna git |
-| Ctrl + L | Ekranı temizle |
+| Ctrl + L | Ekranı temizler |
 | Command + K | Ekranı temizler |
 | Ctrl + U | İmleç konumunda önce çizgiyi temizleyin. Satırın sonundaki ise, tüm çizgi temizler. |
-| Ctrl + H | Gerituşu aynı |
-| Ctrl + R | Bu daha önce kullanılan komutları ile arama yapmanızı sağlar |
+| Ctrl + H | Gerituşu ile aynı |
 | Ctrl + C | Her ne çalıştırıyorsanız ise sonlandırır.|
 | Ctrl + D | Bir süreç çalışırken EOF gönderir veya süreç çalışmadığı zaman da anlık shell'den çıkar. |
 | Ctrl + Z | Eğer bir bekleyen varsa ya da arka planda çalışan ne olursa olsun geçirir. fg yükler. |
 | Ctrl + W | İmleçten önceki kelimeyi temizle.  |
-| Ctrl + K | İmleçten sonraki çizgiyi temizleyin. |
+| Ctrl + K | Şu anda üzerinde olduğun satırın imleçten sonrasını temizleyin. |
 | Ctrl + T | İmleçten önce son iki karakteri değiştirir. |
 | Ctrl + F | İmleçi bir karakter ileri taşır. |
 | Ctrl + B | İmleçi bir karakter geriye taşır. |
@@ -54,8 +53,8 @@ Original translation by [durul](https://github.com/durul)
 
 | Anahtar | Komut |
 | ------ | ----------|
-| history n | Yazılan şeyler gösterir - son n öğeleri sınırlamak için bir numara ekler. |
-| ctrl-r | Etkileşimli önceden yazdığınız komutları ile arama. |
+| history n | Kullandığınız son "n" tane komutu gösterir. |
+| ctrl-r | Önceden yazdığınız komutlar arasında arama yapma. |
 | ![value] | 'Value' ile başlayarak yazdığınız son komutu çalıştırır. |
 | !! | Yazdığınız son komutu çalıştırmak. |
 
@@ -67,13 +66,13 @@ Original translation by [durul](https://github.com/durul)
 | touch [dosya] | Yeni dosya yaratır. |
 | pwd | Bulunulan dizinin tam yolu.  |
 | ls -l | Üst dizini uzun listeler. |
-| cd ../../ | Move dois niveis acima |
-| cat | Concatenar as telas |
+| cd ../../ | İki üst dizine gider |
+| cat | Dosyanın çıktısını ekranda gösterir |
 | rm [dosya] | Bir dosyayı sil, ex.: rm [dosya] [dosya] |
 | rm -i [dosya] | Onay ile dosya sil. |
 | rm -r [dizin] | Dizin ve içeriğini sil. |
 | rm -f [dosya] | Onay olmadan dosya sil |
-| cp [dosya] [yeni dosya] | Dosyaya dosyasını kopyalayın|
+| cp [dosya] [yeni dosya] | "dosya"nın içeriğini "yeni dosya'ya kopyalayın|
 | cp [dosya] [dir] | Dizinine dosyayı kopyalayın |
 | mv [dosya] [yeni dosya] | Taşı / yeniden adlandır |
 
