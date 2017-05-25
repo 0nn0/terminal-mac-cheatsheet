@@ -125,7 +125,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | ----------- | ----------- |
 | find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
 | grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
-| grep -r [search_pattern] [file] | Recursively search for all lines that do not contain the pattern |
+| grep -r [search_pattern] [file] | Recursively search for all lines that contain the pattern |
 | grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
 
 ## HELP
