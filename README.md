@@ -1,6 +1,5 @@
 # Terminal Cheatsheet for Mac (Basics)
 
-- [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/espanol)
 - [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
 - [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
 - [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
