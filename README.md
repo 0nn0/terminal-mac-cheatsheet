@@ -16,7 +16,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Ctrl + E   | Go to the end of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
 | Ctrl + Q   | Clears everything on current line |
 | Ctrl + L   | Clears the Screen |
-| ⌘Cmd + K |Clears the Screen |
+| Cmd + K    | Clears the Screen |
 | Ctrl + U   | Cut everything backwards to beginning of line |
 | Ctrl + K   | Cut everything forward to end of line |
 | Ctrl + W   | Cut one word backwards using white space as delimiter |
@@ -38,8 +38,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 
 | Key/Command | Description |
 | ----------- | ----------- |
+| cd [folder] | Change directory e.g. `cd Documents` |
 | cd |  Home directory |
-| cd [folder] | Change directory e.g. `cd documents` |
+| cd ~ |  Home directory |
 | cd /  | Root of drive |
 | cd -  | Previous directory |
 | ls | Short listing |
@@ -52,7 +53,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | top | Displays active processes. Press q to quit |
 | nano [file] | Opens the file using the nano editor |
 | vim [file] | Opens the file using the vim editor |
-| clear |  Clear screen |
+| clear |  Clears the screen |
 | reset |  Resets the terminal display |
 
 ## CHAINING COMMANDS
@@ -86,12 +87,12 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 
 | Key/Command | Description |
 | ----------- | ----------- |
-| touch [file] |   Create new file |
+| touch [file] |   Create a new file |
 | pwd | Full path to working directory |
 | . |  Current folder, e.g. `ls .` |
 | .. | Parent/enclosing directory, e.g. `ls ..` |
-| `ls -l ..` | Long listing of parent directory |
-| `cd ../../` | Move 2 levels up |
+| ls -l .. | Long listing of parent directory |
+| cd ../../ | Move 2 levels up |
 | cat | Concatenate to screen |
 | rm [file] |  Remove a file, e.g. `rm data.tmp` |
 | rm -i [file] | Remove with confirmation |
@@ -102,7 +103,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
-| pbpaste > [file] | Past clipboard contents into file, `pbpaste > paste-test.txt` |
+| pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
 
 ## DIRECTORY MANAGEMENT
 
@@ -126,13 +127,16 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
 | grep -r [search_pattern] [file] | Recursively search for all lines that contain the pattern |
 | grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
+| grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
+| mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
+| mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
 
 ## HELP
 
 | Key/Command | Description |
 | ----------- | ----------- |
 | [command] -h |  Offers help |
-| [command] —help | Offers help |
+| [command] --help | Offers help |
 | info [command] | Offers help |
 | man [command] |  Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
