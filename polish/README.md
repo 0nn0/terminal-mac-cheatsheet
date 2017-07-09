@@ -1,10 +1,5 @@
 # Ściągawka skrótów klawiszowych w konsoli Mac (Podstawy)
 
-- [Polska wersja](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/polish)
-- [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
-- [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
-- [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
-- [Phiên bản tiếng việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/tieng-viet)
 
 ------------
 
