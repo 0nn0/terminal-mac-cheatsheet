@@ -72,8 +72,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 
 | Key/Command | Description |
 | ----------- | ----------- |
-| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google
-|
+| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
 
 
 ## COMMAND HISTORY
