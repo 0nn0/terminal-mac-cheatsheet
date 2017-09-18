@@ -31,8 +31,8 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Ctrl + T   | Swap the last two characters before the cursor |
 | Ctrl + F   | Move cursor one character forward |
 | Ctrl + B   | Move cursor one character backward |
-| Esc + F  | Move cursor one word forward |
-| Esc + B  | Move cursor one word backward |
+| Option + →  | Move cursor one word forward |
+| Option + ←  | Move cursor one word backward |
 | Esc + T  | Swap the last two words before the cursor |
 | Tab  | Auto-complete files and folder names |
 

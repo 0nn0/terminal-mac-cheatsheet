@@ -20,8 +20,8 @@ Original translation by [kavlez](https://github.com/kavlez)
 | Ctrl + W | 删除光标之前的单词 |
 | Ctrl + K | 删除光标后的所有文字 |
 | Ctrl + T | 将光标前的两个文字进行互换 |
-| Ctrl + F | 光标向前移动一个单词 |
-| Ctrl + B | 光标向后移动一个单词 |
+| Option + → | 光标向前移动一个单词 |
+| Option + ← | 光标向后移动一个单词 |
 | Esc + T | 将光标前的两个单词进行互换 |
 | Tab | 自动补全文件或文件夹的名称 |
 

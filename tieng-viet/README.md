@@ -22,8 +22,8 @@ Original translation by [toankid1412](https://github.com/toankid1412)
 | Ctrl + T   | Di chuyển kí tự trước con trỏ sang bên phải |
 | Ctrl + F   | Di chuyển con trỏ về sau một ký tự |
 | Ctrl + B   | Di chuyển con trỏ về trước một ký tự |
-| Esc + F  | Di chuyển con trỏ về sau một từ  |
-| Esc + B  | Di chuyển con trỏ về trước một từ |
+| Option + →  | Di chuyển con trỏ về sau một từ  |
+| Option + ←  | Di chuyển con trỏ về trước một từ |
 | Esc + T  | Di chuyển từ đằng trước con trỏ về sau một từ |
 | Tab  | Tự động hiển thị tệp hoặc thư mục |
 

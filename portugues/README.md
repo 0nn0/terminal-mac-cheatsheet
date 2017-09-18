@@ -21,8 +21,8 @@ Original translation by [zeluizr](https://github.com/zeluizr)
 | Ctrl + K | Apague a linha após o cursor |
 | Ctrl + T | Troque os dois últimos caracteres antes do cursor |
 | Esc + T | Troque as duas últimas palavras antes do cursor |
-| Ctrl + F | Mover o cursor uma palavra para frente na linha atual |
-| Ctrl + B | Move cursor backward one word on the current line |
+| Option + → | Mover o cursor uma palavra para frente na linha atual |
+| Option + ← | Move cursor backward one word on the current line |
 | Tab | Auto-Completar de comandos e nomes de arquivos. |
 
 

@@ -25,8 +25,8 @@ _Skróty są pisane wielkimi literami tylko ze wględu na czytelność._  _Capsl
 | Ctrl + T   | Zamień dwa ostatnie znaki za kursorem |
 | Ctrl + F   | Przesuń kursor o jeden znak do przodu |
 | Ctrl + B   | Przesuń kursor o jeden znak do tyłu |
-| Esc + F  | Przesuń kursor o jedno słowo do przodu |
-| Esc + B  | Przesuń kursor o jedno słowo do tyłu |
+| Option + →  | Przesuń kursor o jedno słowo do przodu |
+| Option + ←  | Przesuń kursor o jedno słowo do tyłu |
 | Esc + T  | Zamień dwa ostatnie słowa za kursorem |
 | Tab  | Auto-wypełnienie nazw plików i katalogów |
 

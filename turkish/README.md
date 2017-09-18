@@ -21,8 +21,8 @@ Original translation by [durul](https://github.com/durul)
 | Ctrl + T | İmleçten önce son iki karakteri değiştirir. |
 | Ctrl + F | İmleçi bir karakter ileri taşır. |
 | Ctrl + B | İmleçi bir karakter geriye taşır. |
-| Esc + F | İmleçi bir kelime ileri taşır. |
-| Esc + B | İmleçi bir kelime geriye taşır. |
+| Option + → | İmleçi bir kelime ileri taşır. |
+| Option + ← | İmleçi bir kelime geriye taşır. |
 | Esc + T | İmleçten önceki son iki kelimeyi değiştirir. |
 | Tab | Dosya ve klasör adları otomatik tamamlama |
 
