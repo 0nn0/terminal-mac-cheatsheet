@@ -84,6 +84,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | ![value] |  Execute the last command typed that starts with ‘value’ |
 | ![value]:p |  Print to the console the last command typed that starts with ‘value’ |
 | !! |  Execute the last command typed |
+| !!:p |  Print to the console the last command typed |
 
 ## FILE MANAGEMENT
 
