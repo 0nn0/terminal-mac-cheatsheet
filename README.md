@@ -115,8 +115,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | mkdir -p [dir]/[dir] |  Create nested directories |
 | rmdir [dir] | Remove directory ( only operates on empty directories ) |
 | rm -R [dir] | Remove directory and contents |
-| [command] \| [command] | Allows to combine multiple commands that generate output, e.g. `cat data.txt | pbcopy` |
-| less |  Output content delivered in screensize chunks |
+| less [file]|  Output file content delivered in screensize chunks |
 | [command] > [file] |  Push output to file, keep in mind it will get overwritten |
 | [command] >> [file] | Append output to existing file |
 | [command] < [file] |  Tell command to read content from a file |
@@ -127,7 +126,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | ----------- | ----------- |
 | find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
 | grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
-| grep -r [search_pattern] [file] | Recursively search for all lines that contain the pattern |
+| grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
 | grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
 | grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
 | mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
