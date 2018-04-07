@@ -66,7 +66,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | ----------- | ----------- |
 | [command-a]; [command-b] | Run command A and then B, regardless of success of A |
 | [command-a] && [command-b] | Run command B if A succeeded |
-| [command-a] || [command-b] | Run command B if A failed |
+| [command-a] \|\| [command-b] | Run command B if A failed |
 | [command-a] & | Run command A in background |
 
 
