@@ -37,6 +37,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Option + →  | Move cursor one word forward |
 | Option + ←  | Move cursor one word backward |
 | Esc + T  | Swap the last two words before the cursor |
+| Esc + Backspace | Cut one word backwards using white space as delimiter |
 | Tab  | Auto-complete files and folder names |
 
 ## CORE COMMANDS
