@@ -1,148 +1,136 @@
-﻿# Terminal Cheatsheet for Mac (Basics)
+# Les commandes de base du Terminal sur Mac
 
+_Les lettres sont en majuscules uniquement pour la lisibilité._  _La touche Verr Maj ne doit pas être activée_
+## RACCOURCIS
 
-
-- [Polska wersja](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/polish)
-- [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
-- [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
-- [Phiên bản tiếng việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/tieng-viet)
-- [Русская версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/russian)
-- [中文请参考](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文请参考)
-- [Korean](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean)
-
-------------
-
-_Letters are shown capitalized for readability only._  _Capslock should be off._
-## SHORTCUTS
-
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| Ctrl + A   | Go to the beginning of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
-| Ctrl + E   | Go to the end of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
-| Ctrl + Q   | Clears everything on current line |
-| Ctrl + L   | Clears the Screen |
-| Cmd + K    | Clears the Screen |
-| Ctrl + U   | Cut everything backwards to beginning of line |
-| Ctrl + K   | Cut everything forward to end of line |
-| Ctrl + W   | Cut one word backwards using white space as delimiter |
-| Ctrl + Y   | Paste whatever was cut by the last cut command |
-| Ctrl + H   | Same as backspace |
-| Ctrl + C   | Kill whatever you are running |
-| Ctrl + D   | Exit the current shell when no process is running, or send EOF to a the running process |
-| Ctrl + Z   | Puts whatever you are running into a suspended background process. fg restores it. |
-| Ctrl + _   | Undo the last command. (Underscore.  So it's actually Ctrl + Shift + minus) |
-| Ctrl + T   | Swap the last two characters before the cursor |
-| Ctrl + F   | Move cursor one character forward |
-| Ctrl + B   | Move cursor one character backward |
-| Option + →  | Move cursor one word forward |
-| Option + ←  | Move cursor one word backward |
-| Esc + T  | Swap the last two words before the cursor |
-| Tab  | Auto-complete files and folder names |
+| Ctrl + A   | Va au début de la ligne. Marche aussi dans toutes les fenêtres de l'interface graphique |
+| Ctrl + E   | Va à la fin de la ligne. Marche aussi dans toutes les fenêtres de l'interface graphique |
+| Ctrl + Q   | Efface toute la ligne en cours |
+| Ctrl + L   | Efface tout l'écran |
+| Cmd + K    | Efface tout l'écran |
+| Ctrl + U   | Coupe les caractères du curseur jusqu'au début de la ligne |
+| Ctrl + K   | Coupe les caractères du curseur jusqu'à la fin de la ligne |
+| Ctrl + W   | Coupe le mot précédent le curseur, l'espace étant le délimiteur |
+| Ctrl + Y   | Copie ce qui a été coupé par la dernière commande couper |
+| Ctrl + H   | Equivalent de la touche effacer |
+| Ctrl + C   | Quitte le processus en cours |
+| Ctrl + D   | Quitte le shell en cours lorsqu'aucun processus ne tourne, ou envoie EOF au processus en cours |
+| Ctrl + Z   | Mets le processus en cours en arrière plan et rends la main sur le terminal. La commande fg restaure le processus |
+| Ctrl + _   | Annule la dernière action typographique (effacer, insérer etc... des caractères) réalisée sur la ligne de commande en cours |
+| Ctrl + T   | Inverse les 2 caractères qui précèdent le curseur |
+| Ctrl + F   | Avance le curseur d'un caractère. Equivalent de la touche → |
+| Ctrl + B   | Recule le curseur d'un caractère. Equivalent de la touche ← |
+| Option + →  | Avance le curseur d'un mot |
+| Option + ←  | Recule le curseur d'un mot |
+| Esc + T  | Inverse les 2 mots qui précèdent le curseur |
+| Tab  | Auto-complète les noms de dossiers et fichiers |
 
-## CORE COMMANDS
+## COMMANDES PRINCIPALES
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| cd [folder] | Change directory e.g. `cd Documents` |
-| cd |  Home directory |
-| cd ~ |  Home directory |
-| cd /  | Root of drive |
-| cd -  | Previous directory |
-| ls | Short listing |
-| ls -l | Long listing |
-| ls -a | Listing incl. hidden files |
-| ls -lh| Long listing with Human readable file sizes |
-| ls -R | Entire content of folder recursively |
-| sudo [command] | Run command with the security privileges of the superuser (Super User DO) |
-| open [file] | Opens a file ( as if you double clicked it ) |
-| top | Displays active processes. Press q to quit |
-| nano [file] | Opens the file using the nano editor |
-| vim [file] | Opens the file using the vim editor |
-| clear |  Clears the screen |
-| reset |  Resets the terminal display |
+| cd [répertoire] | Change de répertoire ex: `cd Documents` |
+| cd |  Répertoire maison |
+| cd ~ |  Répertoire maison |
+| cd /  | Racine du disque dur |
+| cd -  | Répertoire précédent |
+| ls | Liste non détaillée des fichiers et dossiers du répertoire en cours |
+| ls -l | Liste détaillée des fichiers et dossiers du répertoire en cours |
+| ls -a | Liste incluant les fichiers cachés |
+| ls -lh| Liste détaillée avec l'unité pour la taille des fichiers |
+| ls -R | Liste le contenu de la totalité du répertoire en cours incluant les sous-dossiers et de manière récursive |
+| sudo [commande] | Lance la commande avec les privilèges de sécurité du superuser (Super User DO) |
+| open [fichier] | Ouvre le fichier (équivalent d'avoir double cliqué dessus dans l'interface graphique) |
+| top | Affiche les processus actifs. Touche q pour quitter |
+| nano [fichier] | Ouvre le fichier avec l'éditeur de texte nano |
+| vim [fichier] | Ouvre le fichier avec l'éditeur de texte vim |
+| clear |  Efface tout l'écran |
+| reset |  Réinitialise le terminal |
 
-## CHAINING COMMANDS
+## COMMANDES CHAINEES
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| [command-a]; [command-b] | Run command A and then B, regardless of success of A |
-| [command-a] && [command-b] | Run command B if A succeeded |
-| [command-a] \|\| [command-b] | Run command B if A failed |
-| [command-a] & | Run command A in background |
+| [commande-a]; [commande-b] | Lance la commande A puis la commande B peu importe le succès ou non de la commande A |
+| [commande-a] && [commande-b] | Lance la commande B si la commande A a réussi |
+| [commande-a] \|\| [commande-b] | Lance la commande B si la commande A a échoué |
+| [commande-a] & | Lance la commande A en arrière plan |
 
 
-## PIPING COMMANDS
+## COMMANDES EN FLUX DE REDIRECTION (PIPE)
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
+| [commande-a] \| [commande-b] | Lance la commande A qui envoie son résultat à la commande B. Par exemple : ls \| grep C affiche la liste des fichiers et dossiers qui contiennent la lettre C |
 
 
-## COMMAND HISTORY
+## HISTORIQUE DE COMMANDE
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| history n |  Shows the stuff typed – add a number to limit the last n items |
-| Ctrl + r  | Interactively search through previously typed commands |
-| ![value] |  Execute the last command typed that starts with ‘value’ |
-| ![value]:p |  Print to the console the last command typed that starts with ‘value’ |
-| !! |  Execute the last command typed |
-| !!:p |  Print to the console the last command typed |
+| history N |  Affiche l'historique des N commandes tapées précédemment |
+| Ctrl + R  | Recherche interactivement dans l'historique des commandes |
+| ![valeur] |  Exécute la dernière commande tapée qui commence par ‘valeur’ |
+| ![valeur]:p |  Affiche à l'écran la dernière commande tapée qui commence par ‘valeur’ |
+| !! |  Exécute la dernière commande tapée |
+| !!:p |  Affiche à l'écran la dernière commande tapée |
 
-## FILE MANAGEMENT
+## GESTION DE FICHIERS
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| touch [file] |   Create a new file |
-| pwd | Full path to working directory |
-| . |  Current folder, e.g. `ls .` |
-| .. | Parent/enclosing directory, e.g. `ls ..` |
-| ls -l .. | Long listing of parent directory |
-| cd ../../ | Move 2 levels up |
-| cat | Concatenate to screen |
-| rm [file] |  Remove a file, e.g. `rm data.tmp` |
-| rm -i [file] | Remove with confirmation |
-| rm -r [dir] | Remove a directory and contents |
-| rm -f [file] | Force removal without confirmation |
-| cp [file] [newfile] | Copy file to file |
-| cp [file] [dir] | Copy file to directory |
-| mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
-| pbcopy < [file] | Copies file contents to clipboard |
-| pbpaste | Paste clipboard contents |
-| pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
+| touch [fichier] | Crée un nouveau fichier |
+| pwd | Affiche le chemin complet du répertoire en cours |
+| . |  Répertoire en cours, par exemple `ls .` |
+| .. | Répertoire parent c'est à dire qui contient le répertoire en cours, par exemple `ls ..` |
+| ls -l .. | Liste détaillée du répertoire parent |
+| cd ../../ | Monte de 2 niveaux |
+| cat | Concatène à l'écran |
+| rm [fichier] | Supprime un fichier, par exemple `rm data.tmp` |
+| rm -i [fichier] | Supprime un fichier avec demande de confirmation |
+| rm -r [rép] | Supprime le répertoire et son contenu |
+| rm -f [fichier] | Force la suppression du fichier sans demande de confirmation |
+| cp [fichier] [nouveauFichier] | Copie fichier vers nouveauFichier |
+| cp [fichier] [répertoire] | Copie fichier dans répertoire |
+| mv [fichier] [nouveauFichier] | Déplace/Renomme fichier vers nouveauFichier par exemple `mv fichier1.ad /tmp` |
+| pbcopy < [fichier] | Copie le contenu du fichier dans le presse-papier. Equivalent d'avoir ouvert le fichier avec un éditeur puis d'avoir tout sélectionné puis Ctrl-C |
+| pbpaste | Colle le contenu du presse-papier |
+| pbpaste > [fichier] | Colle le contenu du presse-papier dans fichier, `pbpaste > paste-test.txt` |
 
-## DIRECTORY MANAGEMENT
+## GESTION DES REPERTOIRES
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| mkdir [dir] | Create new directory |
-| mkdir -p [dir]/[dir] |  Create nested directories |
-| rmdir [dir] | Remove directory ( only operates on empty directories ) |
-| rm -R [dir] | Remove directory and contents |
-| less [file]|  Output file content delivered in screensize chunks |
-| [command] > [file] |  Push output to file, keep in mind it will get overwritten |
-| [command] >> [file] | Append output to existing file |
-| [command] < [file] |  Tell command to read content from a file |
+| mkdir [rép] | Crée un nouveau répertoire |
+| mkdir -p [rép]/[rép] | Crée un répertoire et un sous-répertoire dans la foulée |
+| rmdir [rép] | Supprime le répertoire (uniquement si le répertoire est vide) |
+| rm -R [rép] | Supprime le répertoire et son contenu |
+| less [fichier]| Affiche le contenu du fichier par morceau |
+| [commande] > [fichier] | Envoie le résultat de la commande vers le fichier. Attention le contenu du fichier est écrasé |
+| [commande] >> [fichier] | Ajoute le résultat de la commande au contenu existant du fichier |
+| [commande] < [fichier] | Indique à la commande de lire le contenu du fichier |
 
-## SEARCH
+## RECHERCHE
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
-| grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
-| grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
-| grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
-| grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
-| mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
-| mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
+| find [rép] -name [expression] | Recherche les fichiers dont le nom est conforme à l'expression dans le répertoire spécifié, par exemple `find /Utilisateurs -name "fichier.txt"` |
+| grep [expression] [fichier] | Recherche toutes les lignes contenant l'expression, par exemple `grep "Tom" fichier.txt` |
+| grep -r [expression] [rép] | Recherche récursivement dans tous les fichiers du répertoire spécifié toutes les lignes qui contiennent l'expression |
+| grep -v [expression] [fichier] | Recherche toutes les lignes qui ne contiennent PAS l'expression |
+| grep -i [expression] [fichier] | Recherche toutes les lignes qui contiennent l'expression sans tenir compte de la casse (majuscules/minuscules) |
+| mdfind [expression] | Recherche Spotlight des fichiers dont l'expression est présent dans le nom, le contenu ou autre metadata |
+| mdfind -onlyin [rép] -name [fichier] [expression] | Recherche Spotlight des fichiers dont le nom est spécifié et présent uniquement dans le répertoire spécifié |
 
-## HELP
+## AIDE
 
-| Key/Command | Description |
+| Touche/Commande | Description |
 | ----------- | ----------- |
-| [command] -h |  Offers help |
-| [command] --help | Offers help |
-| info [command] | Offers help |
-| man [command] |  Show the help manual for [command] |
-| whatis [command] | Gives a one-line description of [command] |
-| apropos [search-pattern] | Searches for command with keywords in description |
+| [commande] -h | Affiche l'aide pour la commande |
+| [commande] --help | Affiche l'aide pour la commande |
+| info [commande] | Affiche l'aide pour la commande |
+| man [commande] | Affiche le manuel d'utilisation de la commande |
+| whatis [commande] | Décris ce que fait la commande en 1 seule ligne |
+| apropos [expression] | Recherche les commandes dont la description contient l'expression |
