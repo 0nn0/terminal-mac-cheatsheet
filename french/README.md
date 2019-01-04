@@ -32,8 +32,8 @@ _Les lettres sont en majuscules uniquement pour la lisibilité._  _La touche Ver
 | Touche/Commande | Description |
 | ----------- | ----------- |
 | cd [répertoire] | Change de répertoire ex: `cd Documents` |
-| cd |  Répertoire maison |
-| cd ~ |  Répertoire maison |
+| cd | Répertoire maison |
+| cd ~ | Répertoire maison |
 | cd /  | Racine du disque dur |
 | cd -  | Répertoire précédent |
 | ls | Liste non détaillée des fichiers et dossiers du répertoire en cours |
@@ -46,8 +46,8 @@ _Les lettres sont en majuscules uniquement pour la lisibilité._  _La touche Ver
 | top | Affiche les processus actifs. Touche q pour quitter |
 | nano [fichier] | Ouvre le fichier avec l'éditeur de texte nano |
 | vim [fichier] | Ouvre le fichier avec l'éditeur de texte vim |
-| clear |  Efface tout l'écran |
-| reset |  Réinitialise le terminal |
+| clear | Efface tout l'écran |
+| reset | Réinitialise le terminal |
 
 ## COMMANDES CHAINEES
 
@@ -70,12 +70,12 @@ _Les lettres sont en majuscules uniquement pour la lisibilité._  _La touche Ver
 
 | Touche/Commande | Description |
 | ----------- | ----------- |
-| history N |  Affiche l'historique des N commandes tapées précédemment |
+| history N | Affiche l'historique des N commandes tapées précédemment |
 | Ctrl + R  | Recherche interactivement dans l'historique des commandes |
-| ![valeur] |  Exécute la dernière commande tapée qui commence par ‘valeur’ |
-| ![valeur]:p |  Affiche à l'écran la dernière commande tapée qui commence par ‘valeur’ |
-| !! |  Exécute la dernière commande tapée |
-| !!:p |  Affiche à l'écran la dernière commande tapée |
+| ![valeur] | Exécute la dernière commande tapée qui commence par ‘valeur’ |
+| ![valeur]:p | Affiche à l'écran la dernière commande tapée qui commence par ‘valeur’ |
+| !! | Exécute la dernière commande tapée |
+| !!:p | Affiche à l'écran la dernière commande tapée |
 
 ## GESTION DE FICHIERS
 
@@ -83,7 +83,7 @@ _Les lettres sont en majuscules uniquement pour la lisibilité._  _La touche Ver
 | ----------- | ----------- |
 | touch [fichier] | Crée un nouveau fichier |
 | pwd | Affiche le chemin complet du répertoire en cours |
-| . |  Répertoire en cours, par exemple `ls .` |
+| . | Répertoire en cours, par exemple `ls .` |
 | .. | Répertoire parent c'est à dire qui contient le répertoire en cours, par exemple `ls ..` |
 | ls -l .. | Liste détaillée du répertoire parent |
 | cd ../../ | Monte de 2 niveaux |
