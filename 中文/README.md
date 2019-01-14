@@ -62,7 +62,7 @@ Original translation by [kavlez](https://github.com/kavlez)
 | [command-a] & | 在后台执行命令A |
 
 
-## PIPING COMMANDS
+## 管道命令
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -110,7 +110,7 @@ Original translation by [kavlez](https://github.com/kavlez)
 
 
 
-## 管道 - 连接多个带有输出的命令
+##
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
