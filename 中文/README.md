@@ -1,5 +1,6 @@
 # Terminal Cheatsheet for Mac ( 基本 )
-Original translation by [kavlez](https://github.com/kavlez)
+Original translation by [kavlez](https://github.com/kavlez)  
+Modified translation by [kestory](https://github.com/kestory)
 
 ------------
 
