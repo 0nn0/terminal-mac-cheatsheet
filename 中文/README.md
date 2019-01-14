@@ -86,20 +86,21 @@ Original translation by [kavlez](https://github.com/kavlez)
 | -------- | ---- |
 | touch [file] | 创建一个新文件 |
 | pwd | 显示当前工作目录 |
-
-| .. | 上级目录, 例如. |
-| | 'ls -l ..' 	= 上级目录的文件详细列表 |
-| | 'cd ../../' = 向上移动两个层级 |
-| . | 当前目录 |
-| cat | 连接 |
-| rm [file] | 移除文件, 例如 rm [file] [file] |
+| . | 当前目录, 例如 `ls .` |
+| .. | 上级目录, 例如 `ls .`|
+|  ls -l .. |	 上级目录的文件详细列表 |
+|  cd ../../ | 向上移动两个层级 |
+| cat | 连接和打印文件 |
+| rm [file] | 移除文件, 例如 `rm data.tmp` |
 | rm -i [file] | 移除时出现确认提示 |
 | rm -r [dir] | 移除文件及内容 |
 | rm -f [file] | 强制移除 |
 | cp [file] [newfile] | 复制文件 |
 | cp [file] [dir] | 复制文件到指定目录 |
-| mv [file] [new filename] | 移动/重命名, 例如 mv -v [file] [dir] |
-
+| mv [file] [new filename] | 移动/重命名, 例如 `mv file1.ad /tmp` |
+| pbcopy < [file] | 将文件内容复制到剪贴板 |
+| pbpaste | 粘贴剪切板的内容 |
+| pbpaste > [file] | 将剪切板的内容粘贴到文件，`pbpaste > paste-test.txt` |
 
 ## 目录管理
 
