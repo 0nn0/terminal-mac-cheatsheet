@@ -35,22 +35,22 @@ Original translation by [kavlez](https://github.com/kavlez)
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| cd | Home目录 |
 | cd [folder] | 切换目录 |
-| cd ~ | Home目录, 例如 'cd ~/folder/' |
-| cd / | 根目录 |
-| ls | 文件列表 |
-| ls -l | 文件详细列表 |
+| cd | 主目录 |
+| cd ~ | 主目录 |
+| cd / | 磁盘根目录 |
+| ls | 简洁文件列表 |
+| ls -l | 详细文件列表 |
 | ls -a | 列出隐藏文件 |
-| ls -lh | 文件详细列表中的文件大小以更友好的形式列出 |
+| ls -lh | 详细文件列表中文件大小以更友好的形式列出 |
 | ls -R | 递归显示文件夹中的内容 |
 | sudo [command] | 以超级用户身份执行命令 |
 | open [file] | 打开文件 ( 相当于双击一个文件 ) |
 | top | 显示运行中的进程，按q终止 |
-| nano [file] | 打开编辑 |
-| pico	[file] | 打开编辑 |
-| q | 退出 |
+| nano [file] | 用nano打开编辑 |
+| vim	[file] | 用vim打开编辑 |
 | clear | 清屏 |
+| reset | 重置终端显示 |
 
 
 ## 命令历史
