@@ -119,13 +119,13 @@ Original translation by [kavlez](https://github.com/kavlez)
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
-| grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
-| grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
-| grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
-| grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
-| mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
-| mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
+| find [dir] -name [search_pattern] | 寻找文件，例如 `find /Users -name "file.txt"` |
+| grep [search_pattern] [file] | 寻找所有包含模式的行，例如 `grep "Tom" file.txt` |
+| grep -r [search_pattern] [dir] | 指定目录下递归寻找所有包含模式的行 |
+| grep -v [search_pattern] [file] | 寻找所有不包含模式的行 |
+| grep -i [search_pattern] [file] | 寻找所有包含模式且不区分大小写的行 |
+| mdfind [search_pattern] | Spotlight搜索文件（名称，内容，其他元数据），例如 `mdfind skateboard` |
+| mdfind -onlyin [dir] -name [pattern] | Spotlight搜索给定目录中名为pattern的文件 |
 
 ## 帮助
 
