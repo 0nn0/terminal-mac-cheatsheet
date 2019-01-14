@@ -64,20 +64,21 @@ Original translation by [kavlez](https://github.com/kavlez)
 
 ## 管道命令
 
-| Key/Command | Description |
-| ----------- | ----------- |
-| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
+| 按键/命令 | 描述 |
+| -------- | ---- |
+| [command-a] \| [command-b] | 运行命令A然后把结果传给命令B 比如 ps auxwww \| grep google |
 
 
 ## 命令历史
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| history n | 列出最近执行过的n条命令 |
-| ctrl-r | 检索之前执行过的命令 |
-| ![value] | 执行最近以'value'开始的命令 |
-| !! | 执行最近执行过的命令 |
-
+| history n |  列出最近执行过的n条命令 |
+| ctrl-r |  交互式检索之前执行过的命令 |
+| ![value] |  执行最近以'value'开始的命令 |
+| ![value]:p |  将最近以'value'开始的命令打印到终端 |
+| !! |  执行上一条命令 |
+| !!:p |  将上一条命令打印到终端 |
 
 ## 文件管理
 
@@ -85,6 +86,7 @@ Original translation by [kavlez](https://github.com/kavlez)
 | -------- | ---- |
 | touch [file] | 创建一个新文件 |
 | pwd | 显示当前工作目录 |
+
 | .. | 上级目录, 例如. |
 | | 'ls -l ..' 	= 上级目录的文件详细列表 |
 | | 'cd ../../' = 向上移动两个层级 |
@@ -107,18 +109,22 @@ Original translation by [kavlez](https://github.com/kavlez)
 | mkdir -p [dir]/[dir] | 创建子目录 |
 | rmdir [dir] | 移除目录 ( 仅限目录下没有内容时 ) |
 | rm -R [dir] | 移除目录及内容 |
+| less [file] | 按当前窗口大小输出内容 |
+| [command] > [file] | 输出至指定文件, 注意文件将会覆盖 |
+| [command] >> [file] | 在制定文件的末尾附加内容 |
+| [command] < | 从文件中读取内容 |
 
-
-
-##
+## 搜索
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| more | 按当前窗口大小输出内容 |
-| > [file] | 输出至指定文件, 注意文件将会覆盖 |
-| >> [file] | 在制定文件的末尾附加内容 |
-| < | 从文件中读取内容 |
-
+| find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
+| grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
+| grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
+| grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
+| grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
+| mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
+| mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
 
 ## 帮助
 
