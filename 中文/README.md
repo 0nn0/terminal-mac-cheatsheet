@@ -52,6 +52,22 @@ Original translation by [kavlez](https://github.com/kavlez)
 | clear | 清屏 |
 | reset | 重置终端显示 |
 
+## 链接命令
+
+| 按键/命令 | 描述 |
+| -------- | ---- |
+| [command-a]; [command-b] | 顺序执行命令A和命令B，不管A是否执行成功 |
+| [command-a] && [command-b] | 命令A执行成功后执行命令B |
+| [command-a] \|\| [command-b] | 命令A执行失败后执行命令B |
+| [command-a] & | 在后台执行命令A |
+
+
+## PIPING COMMANDS
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
+
 
 ## 命令历史
 
