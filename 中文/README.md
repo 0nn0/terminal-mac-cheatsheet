@@ -9,19 +9,24 @@ Original translation by [kavlez](https://github.com/kavlez)
 | -------- | ---- |
 | Ctrl + A | 移动光标至行首 |
 | Ctrl + E | 移动光标至行尾 |
-| Ctrl + L | 清屏 |
-| Command + K | 清屏 |
-| Ctrl + U | 删除光标前的所有文字。如果光标位于行尾则删除整行。 |
-| Ctrl + H | 与退格键相同 |
-| Ctrl + R | 检索使用过的命令 |
+| Ctrl + Q | 清除当前行 |
+| Ctrl + L | 清屏（相当于 clear 命令） |
+| Cmd + K | 清屏（无法上翻看历史了） |
+| Ctrl + U | 删除光标之前到行首的字符 |
+| Ctrl + K | 删除光标之前到行尾的字符 |
+| Ctrl + W | 以空白符为分隔向左删一个单词 |
+| Ctrl + Y | 粘贴最后一次被删除的内容 |
+| Ctrl + H | 等同于退格符 |
+| Ctrl + R | 根据用户输入查找相关历史命令 |
 | Ctrl + C | 终止当前执行 |
-| Ctrl + D | 退出当前shell |
-| Ctrl + Z | 将执行中的任何东西放入后台进程。fg可以将其恢复。 |
-| Ctrl + W | 删除光标之前的单词 |
-| Ctrl + K | 删除光标后的所有文字 |
-| Ctrl + T | 将光标前的两个文字进行互换 |
-| Option + → | 光标向前移动一个单词 |
-| Option + ← | 光标向后移动一个单词 |
+| Ctrl + D | 没有进程运行时退出当前shell，否则向当前运行进程发送EOF |
+| Ctrl + Z | 将任何执行中的东西放入后台进程。fg可以将其恢复。 |
+| Ctrl + _ | 撤销上次命令（是下划线，所以其实是 Ctrl + Shift + minus） |
+| Ctrl + T | 将光标前的两个字符进行互换 |
+| Ctrl + F | 将光标向前移动一个字符 |
+| Ctrl + B | 将光标向后移动一个字符 |
+| Option + → | 将光标向前移动一个单词 |
+| Option + ← | 将光标向后移动一个单词 |
 | Esc + T | 将光标前的两个单词进行互换 |
 | Tab | 自动补全文件或文件夹的名称 |
 
@@ -86,7 +91,7 @@ Original translation by [kavlez](https://github.com/kavlez)
 | mkdir -p [dir]/[dir] | 创建子目录 |
 | rmdir [dir] | 移除目录 ( 仅限目录下没有内容时 ) |
 | rm -R [dir] | 移除目录及内容 |
- 
+
 
 
 ## 管道 - 连接多个带有输出的命令
