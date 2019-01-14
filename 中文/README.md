@@ -133,7 +133,7 @@ Original translation by [kavlez](https://github.com/kavlez)
 | -------- | ---- |
 | [command] -h | 显示帮助信息 |
 | [command] --help | 显示帮助信息 |
-| [command] help | 显示帮助信息 |
-| reset | 重置当前终端 |
-| man [command] | 显示指定命令的帮助信息 |
+| info [command] | 显示帮助信息 |
+| man [command] | 显示指定命令的帮助手册 |
 | whatis [command] | 显示指定命令的简述 |
+| apropos [search-pattern] | 用命令描述中的关键词查找，例如`apropos concatenate` |
