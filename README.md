@@ -19,7 +19,6 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | ----------- | ----------- |
 | Ctrl + A   | Go to the beginning of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
 | Ctrl + E   | Go to the end of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
-| Ctrl + Q   | Clears everything on current line |
 | Ctrl + L   | Clears the Screen |
 | Cmd + K    | Clears the Screen |
 | Ctrl + U   | Cut everything backwards to beginning of line |
@@ -27,9 +26,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Ctrl + W   | Cut one word backwards using white space as delimiter |
 | Ctrl + Y   | Paste whatever was cut by the last cut command |
 | Ctrl + H   | Same as backspace |
-| Ctrl + C   | Kill whatever you are running |
+| Ctrl + C   | Kill whatever you are running.  Also clears everything on current line |
 | Ctrl + D   | Exit the current shell when no process is running, or send EOF to a the running process |
-| Ctrl + Z   | Puts whatever you are running into a suspended background process. fg restores it. |
+| Ctrl + Z   | Puts whatever you are running into a suspended background process. fg restores it |
 | Ctrl + _   | Undo the last command. (Underscore.  So it's actually Ctrl + Shift + minus) |
 | Ctrl + T   | Swap the last two characters before the cursor |
 | Ctrl + F   | Move cursor one character forward |
