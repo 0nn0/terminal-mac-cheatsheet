@@ -9,6 +9,7 @@
 - [Русская версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/russian)
 - [中文请参考](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文请参考)
 - [Korean](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean)
+- [French](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/french)
 
 ------------
 
