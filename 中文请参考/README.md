@@ -8,26 +8,25 @@ Modified translation by [kestory](https://github.com/kestory)
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| Ctrl + A | 移动光标至行首 |
-| Ctrl + E | 移动光标至行尾 |
-| Ctrl + Q | 清除当前行 |
-| Ctrl + L | 清屏（相当于 clear 命令） |
-| Cmd + K | 清屏（无法上翻看历史了） |
-| Ctrl + U | 删除光标之前到行首的字符 |
-| Ctrl + K | 删除光标之前到行尾的字符 |
-| Ctrl + W | 以空白符为分隔向左删一个单词 |
-| Ctrl + Y | 粘贴最后一次被删除的内容 |
-| Ctrl + H | 等同于退格符 |
-| Ctrl + R | 根据用户输入查找相关历史命令 |
-| Ctrl + C | 终止当前执行 |
-| Ctrl + D | 没有进程运行时退出当前shell，否则向当前运行进程发送EOF |
-| Ctrl + Z | 将任何执行中的东西放入后台进程。fg可以将其恢复。 |
-| Ctrl + _ | 撤销上次命令（是下划线，所以其实是 Ctrl + Shift + minus） |
-| Ctrl + T | 将光标前的两个字符进行互换 |
-| Ctrl + F | 将光标向前移动一个字符 |
-| Ctrl + B | 将光标向后移动一个字符 |
-| Option + → | 将光标向前移动一个单词 |
-| Option + ← | 将光标向后移动一个单词 |
+| Ctrl + A | 移动光标至行首，也适用于大多数文本编辑器 |
+| Ctrl + E | 移动光标至行尾，也适用于大多数文本编辑器 |
+| Ctrl + Q | 清除当前行中的所有内容 |
+| Ctrl + L | 清屏 |
+| Command + K | 清屏 |
+| Ctrl + U | 剪切光标前的所有字符 |
+| Ctrl + K | 剪切光标后的所有字符 |
+| Ctrl + W | 剪切光标前的内容，直到遇到为止 |
+| Ctrl + Y | 粘贴上一次剪切的字符 |
+| Ctrl + H | 与退格键相同 |
+| Ctrl + C | 终止当前执行的进程 |
+| Ctrl + D | 当没有进程在执行时退出当前终端，如果当前有进程就发送 `EOF` 命令给当前进程 |
+| Ctrl + Z | 将执行中的任何东西放入后台进程。fg 可以将其恢复。 |
+| Ctrl + _ | 撤销最后一条命令（因为是下划线，所以实际上是 `Ctrl + Shift + _`）|
+| Ctrl + T | 将光标前的两个文字进行互换 |
+| Ctrl + F | 将将光标向前移动一个字符 |
+| Ctrl + B | 将将光标向后移动一个字符 |
+| Option + → | 光标向前移动一个单词 |
+| Option + ← | 光标向后移动一个单词 |
 | Esc + T | 将光标前的两个单词进行互换 |
 | Tab | 自动补全文件或文件夹的名称 |
 
@@ -36,39 +35,51 @@ Modified translation by [kestory](https://github.com/kestory)
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| cd [folder] | 切换目录 |
-| cd | 主目录 |
-| cd ~ | 主目录 |
-| cd / | 磁盘根目录 |
-| ls | 简洁文件列表 |
-| ls -l | 详细文件列表 |
+| cd [folder] | 切换目录，例如 `cd Documents`|
+| cd | Home目录 |
+| cd ~ | Home目录|
+| cd / | 根目录 |
+| cd - | 上一个目录 |
+| ls | 文件列表 |
+| ls -l | 文件详细列表 |
 | ls -a | 列出隐藏文件 |
 | ls -lh | 详细文件列表中文件大小以更友好的形式列出 |
 | ls -R | 递归显示文件夹中的内容 |
 | sudo [command] | 以超级用户身份执行命令 |
 | open [file] | 打开文件 ( 相当于双击一个文件 ) |
 | top | 显示运行中的进程，按q终止 |
-| nano [file] | 用nano打开编辑 |
-| vim	[file] | 用vim打开编辑 |
+| nano [file] | 使用 nano 打开编辑 |
+| vim	[file] | 使用 vim 打开编辑 |
 | clear | 清屏 |
 | reset | 重置终端显示 |
 
-## 链接命令
+## 命令链
 
-| 按键/命令 | 描述 |
-| -------- | ---- |
-| [command-a]; [command-b] | 顺序执行命令A和命令B，不管A是否执行成功 |
-| [command-a] && [command-b] | 命令A执行成功后执行命令B |
-| [command-a] \|\| [command-b] | 命令A执行失败后执行命令B |
-| [command-a] & | 在后台执行命令A |
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command-a]; [command-b] |不管命令 a 是否执行成功，执行完命令 a 后再执行命令 b |
+| [command-a] && [command-b] | 如果命令 a 执行成功就执行命令 b |
+| [command-a] \|\| [command-b] | 如果命令 a 执行失败就执行命令 b|
+| [command-a] & | 在后台执行命令 a |
+
+
+## 命令管道
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command-a] \| [command-b] | 运行命令 a，然后将结果给命令 b，例如 `ps auxwww | grep google` |
 
 
 ## 管道命令
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
-| [command-a] \| [command-b] | 运行命令A然后把结果传给命令B 比如 ps auxwww \| grep google |
-
+| history n | 列出最近执行过的 n 条命令 |
+| ctrl-r | 检索之前执行过的命令 |
+| ![value] | 执行最近以 `value` 开始的命令 |
+| ![value]:p | 显示最近以 `value` 开始的命令 |
+| !! | 执行最后一次执行的命令 |
+| !!:p |  显示最后一次执行的命令 |
 
 ## 命令历史
 
@@ -87,21 +98,21 @@ Modified translation by [kestory](https://github.com/kestory)
 | -------- | ---- |
 | touch [file] | 创建一个新文件 |
 | pwd | 显示当前工作目录 |
-| . | 当前目录, 例如 `ls .` |
-| .. | 上级目录, 例如 `ls .`|
-|  ls -l .. |	 上级目录的文件详细列表 |
-|  cd ../../ | 向上移动两个层级 |
-| cat | 连接和打印文件 |
+| . |  当前目录, 例如 `ls .` |
+| .. | 上级目录, 例如 `ls ..` |
+| ls -l .. |  上级目录的文件详细列表 |
+| cd ../../| 向上移动两个层级 |
+| cat | 连接或打印文件到屏幕上 |
 | rm [file] | 移除文件, 例如 `rm data.tmp` |
 | rm -i [file] | 移除时出现确认提示 |
 | rm -r [dir] | 移除文件及内容 |
 | rm -f [file] | 强制移除 |
 | cp [file] [newfile] | 复制文件 |
 | cp [file] [dir] | 复制文件到指定目录 |
-| mv [file] [new filename] | 移动/重命名, 例如 `mv file1.ad /tmp` |
-| pbcopy < [file] | 将文件内容复制到剪贴板 |
-| pbpaste | 粘贴剪切板的内容 |
-| pbpaste > [file] | 将剪切板的内容粘贴到文件，`pbpaste > paste-test.txt` |
+| mv [file] [new filename] | 移动/重命名, 例如 `mv file1.ad /tmp`|
+| pbcopy < [file] | 把内容复制到剪切板中 |
+| pbpaste | 粘贴剪切板中的内容 |
+| pbpaste > [file] | 把剪切板中的内容复制到文件里 `pbpaste > paste-test.txt` |
 
 ## 目录管理
 
@@ -111,22 +122,24 @@ Modified translation by [kestory](https://github.com/kestory)
 | mkdir -p [dir]/[dir] | 创建子目录 |
 | rmdir [dir] | 移除目录 ( 仅限目录下没有内容时 ) |
 | rm -R [dir] | 移除目录及内容 |
-| less [file] | 按当前窗口大小输出内容 |
-| [command] > [file] | 输出至指定文件, 注意文件将会覆盖 |
-| [command] >> [file] | 在制定文件的末尾附加内容 |
-| [command] < | 从文件中读取内容 |
+| less [file]|  根据当前终端窗口大小来输出文件内容 |
+| [command] > [file] |  将命令输出的内容覆盖到文件里 |
+| [command] >> [file] | 将命令输出的内容附加到文件里 |
+| [command] < [file] |  告诉命令从文件中读取内容 |
+ 
 
 ## 搜索
 
-| 按键/命令 | 描述 |
-| -------- | ---- |
-| find [dir] -name [search_pattern] | 寻找文件，例如 `find /Users -name "file.txt"` |
-| grep [search_pattern] [file] | 寻找所有包含模式的行，例如 `grep "Tom" file.txt` |
-| grep -r [search_pattern] [dir] | 指定目录下递归寻找所有包含模式的行 |
-| grep -v [search_pattern] [file] | 寻找所有不包含模式的行 |
-| grep -i [search_pattern] [file] | 寻找所有包含模式且不区分大小写的行 |
-| mdfind [search_pattern] | Spotlight搜索文件（名称，内容，其他元数据），例如 `mdfind skateboard` |
-| mdfind -onlyin [dir] -name [pattern] | Spotlight搜索给定目录中名为pattern的文件 |
+| Key/Command | Description |
+| ----------- | ----------- |
+| find [dir] -name [search_pattern] | 搜索文件, 例如 `find /Users -name "file.txt"` |
+| grep [search_pattern] [file] | 搜索文件中含有关键字的所有行, e.g. `grep "Tom" file.txt` |
+| grep -r [search_pattern] [dir] | 递归搜索目录的所有文件中包含该关键字的所有行 |
+| grep -v [search_pattern] [file] | 搜索文件中不含有关键字的所有行 |
+| grep -i [search_pattern] [file] | 搜索文件中含有关键字（不区分大小写）的所有行 |
+| mdfind [search_pattern] | 用 Spotlight 搜搜文件 (搜索范围包涵名字、内容、其他文件数据), 例如 `mdfind skateboard` |
+| mdfind -onlyin [dir] -name [pattern] | 用 Spotlight 搜索制定目录中名字包涵关键字的文件 |
+
 
 ## 帮助
 
@@ -134,7 +147,7 @@ Modified translation by [kestory](https://github.com/kestory)
 | -------- | ---- |
 | [command] -h | 显示帮助信息 |
 | [command] --help | 显示帮助信息 |
-| info [command] | 显示帮助信息 |
-| man [command] | 显示指定命令的帮助手册 |
+| info [command] | 提供帮助 |
+| man [command] | 显示指定命令的帮助信息 |
 | whatis [command] | 显示指定命令的简述 |
-| apropos [search-pattern] | 用命令描述中的关键词查找，例如`apropos concatenate` |
+| apropos [search-pattern] | 使用关键字搜索描述内容 |
