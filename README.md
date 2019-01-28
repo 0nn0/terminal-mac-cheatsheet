@@ -1,4 +1,4 @@
-﻿# Terminal Cheatsheet for Mac (Basics)
+# Terminal Cheatsheet for Mac (Basics)
 
 
 
@@ -7,7 +7,7 @@
 - [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
 - [Phiên bản tiếng việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/tieng-viet)
 - [Русская версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/russian)
-- [中文请参考](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文请参考)
+- [中文](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
 - [Korean](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean)
 - [French](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/french)
 

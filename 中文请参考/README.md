@@ -1,5 +1,6 @@
 # Terminal Cheatsheet for Mac ( 基本 )
-Original translation by [kavlez](https://github.com/kavlez)
+Original translation by [kavlez](https://github.com/kavlez)  
+Modified translation by [kestory](https://github.com/kestory)
 
 ------------
 
@@ -42,7 +43,7 @@ Original translation by [kavlez](https://github.com/kavlez)
 | ls | 文件列表 |
 | ls -l | 文件详细列表 |
 | ls -a | 列出隐藏文件 |
-| ls -lh | 文件详细列表中的文件大小以更友好的形式列出 |
+| ls -lh | 详细文件列表中文件大小以更友好的形式列出 |
 | ls -R | 递归显示文件夹中的内容 |
 | sudo [command] | 以超级用户身份执行命令 |
 | open [file] | 打开文件 ( 相当于双击一个文件 ) |
@@ -68,7 +69,8 @@ Original translation by [kavlez](https://github.com/kavlez)
 | ----------- | ----------- |
 | [command-a] \| [command-b] | 运行命令 a，然后将结果给命令 b，例如 `ps auxwww | grep google` |
 
-## 命令历史
+
+## 管道命令
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
@@ -79,6 +81,16 @@ Original translation by [kavlez](https://github.com/kavlez)
 | !! | 执行最后一次执行的命令 |
 | !!:p |  显示最后一次执行的命令 |
 
+## 命令历史
+
+| 按键/命令 | 描述 |
+| -------- | ---- |
+| history n |  列出最近执行过的n条命令 |
+| ctrl-r |  交互式检索之前执行过的命令 |
+| ![value] |  执行最近以'value'开始的命令 |
+| ![value]:p |  将最近以'value'开始的命令打印到终端 |
+| !! |  执行上一条命令 |
+| !!:p |  将上一条命令打印到终端 |
 
 ## 文件管理
 
