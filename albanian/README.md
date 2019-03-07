@@ -66,11 +66,11 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | [komanda-a] & | Ekzekuto komandën A në background |
 
 
-## PIPING COMMANDS
+## NDËRTHURJA E KOMANDAVE (PIPING)
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
+| [komanda-a] \| [komanda-b] | Ekzekuto komandën A dhe më pas kaloja rezultatin komandës B. p.sh. `ps auxwww \| grep google |`
 
 
 ## HISTORIA E KOMANDAVE
@@ -111,10 +111,10 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| mkdir [dir] | Create new directory |
-| mkdir -p [dir]/[dir] |  Create nested directories |
-| rmdir [dir] | Remove directory ( only operates on empty directories ) |
-| rm -R [dir] | Remove directory and contents |
+| mkdir [dir] | Krijo direktori të re |
+| mkdir -p [dir]/[dir] |  Krijo direktori të ndërthurura (direktori brenda direktorisë) |
+| rmdir [dir] | Fshi direktorinë ( operon vetëm në direktori boshe ) |
+| rm -R [dir] | Fshi direktorinë dhe përmbajtjen e saj |
 | less [file]|  Output file content delivered in screensize chunks |
 | [command] > [file] |  Push output to file, keep in mind it will get overwritten |
 | [command] >> [file] | Append output to existing file |
@@ -125,7 +125,7 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
+| find [dir] -name [search_pattern] | Kërko për skedarë, e.g. `find /Users -name "file.txt"` |
 | grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
 | grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
 | grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
