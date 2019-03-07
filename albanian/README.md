@@ -1,12 +1,14 @@
 
-# Permbledhje e komandave te Terminalit per Mac (Baza)
+# Përmbledhje e komandave të Terminalit për Mac (Bazat)
 
 ------------
 
-_Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock duhet te jete i fikur._
+_Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Capslock duhet të jetë i fikur._
+
+
 ## SHKURTIME
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | Ctrl + A   | Go to the beginning of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
 | Ctrl + E   | Go to the end of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
@@ -30,9 +32,10 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 | Esc + Backspace | Cut one word backwards using none alphabetic characters as delimiters |
 | Tab  | Auto-complete files and folder names |
 
+
 ## KOMANDAT THEMELORE
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | cd [folder] | Change directory e.g. `cd Documents` |
 | cd |  Home directory |
@@ -52,26 +55,27 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 | clear |  Clears the screen |
 | reset |  Resets the terminal display |
 
-## CHAINING COMMANDS
 
-|   Komanda  |   Pershkrimi |
+## KOMBINIMI I DISA KOMANDAVE SË BASHKU
+
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| [command-a]; [command-b] | Run command A and then B, regardless of success of A |
-| [command-a] && [command-b] | Run command B if A succeeded |
-| [command-a] \|\| [command-b] | Run command B if A failed |
-| [command-a] & | Run command A in background |
+| [komanda-a]; [komanda-b] | Ekzekuto komandën A dhe më pas B, pavarësisht nëse komanda A ekzekutohet me sukses apo jo |
+| [komanda-a] && [komanda-b] | Ekzekuto komandën B në qoftë se komanda A u ekzekutua me sukses |
+| [komanda-a] \|\| [komanda-b] | Ekzekuto komandën B në qoftë se komanda A dështoi |
+| [komanda-a] & | Ekzekuto komandën A në background |
 
 
 ## PIPING COMMANDS
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
 
 
 ## HISTORIA E KOMANDAVE
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | history n |  Shows the stuff typed – add a number to limit the last n items |
 | Ctrl + r  | Interactively search through previously typed commands |
@@ -82,7 +86,7 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 
 ## MENAXHIMI I SKEDARËVE
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | touch [file] |   Create a new file |
 | pwd | Full path to working directory |
@@ -102,9 +106,10 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
 
+
 ## MENAXHIMI I DIREKTORIVE
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | mkdir [dir] | Create new directory |
 | mkdir -p [dir]/[dir] |  Create nested directories |
@@ -115,9 +120,10 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 | [command] >> [file] | Append output to existing file |
 | [command] < [file] |  Tell command to read content from a file |
 
+
 ## KËRKIM
 
-|   Komanda  |   Pershkrimi |
+|   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
 | find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
 | grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
@@ -126,6 +132,7 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 | grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
 | mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
 | mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
+
 
 ## NDIHMË
 
@@ -136,4 +143,4 @@ _Shkronjat jane ne versionin kapital per t'u lexuar me lehte._  _Butoni Capslock
 | info [komanda] | Ofron ndihmë |
 | man [komanda] |  Tregon manualin e ndihmës/përdorimit për [komandën] |
 | whatis [komanda] | Jep përshkrim të shkurtër (me një rresht) të komandës [komandën] |
-| apropos [search-pattern] | Kërkon për komanda me fjalën kyçe në përshkrim |
+| apropos [fjala-kyçe] | Kërkon për komanda me fjalën kyçe në përshkrim |
