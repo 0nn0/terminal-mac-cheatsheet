@@ -56,7 +56,7 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | reset |  Resets the terminal display |
 
 
-## KOMBINIMI I DISA KOMANDAVE SË BASHKU
+## KOMBINIMI I KOMANDAVE
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
@@ -73,16 +73,16 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | [komanda-a] \| [komanda-b] | Ekzekuto komandën A dhe më pas kaloja rezultatin komandës B. p.sh. `ps auxwww \| grep google |`
 
 
-## HISTORIA E KOMANDAVE
+## HISTORIKU I KOMANDAVE
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| history n |  Shows the stuff typed – add a number to limit the last n items |
-| Ctrl + r  | Interactively search through previously typed commands |
-| ![value] |  Execute the last command typed that starts with ‘value’ |
-| ![value]:p |  Print to the console the last command typed that starts with ‘value’ |
-| !! |  Execute the last command typed |
-| !!:p |  Print to the console the last command typed |
+| history n |  Tregon komandat e shtypura në konsolë – shto një numër për të limituar deri në n komandat e fundit |
+| Ctrl + r  | Kërkim interaktiv nëpër gjithë komandat e shtypura |
+| ![vlerë] |  Ekzekuto komandën e fundit të shtypur në konsolë që fillon me ‘vlerë’ |
+| ![vlerë]:p |  Afisho komandën e fundit të shtypur në konsolë që fillon me ‘vlerë’ |
+| !! |  Ekzekuto komandën e fundit të shtypur në konsolë |
+| !!:p |  Afisho komandën e fundit të shtypur në konsolë |
 
 ## MENAXHIMI I SKEDARËVE
 
