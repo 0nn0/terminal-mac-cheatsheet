@@ -10,7 +10,7 @@
 - [中文](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
 - [Korean](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean)
 - [French](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/french)
-- [Albanian](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/albanian)
+- [Shqip (Albanian)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/albanian)
 
 
 ------------
