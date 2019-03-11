@@ -23,7 +23,7 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | Ctrl + D   | Exit the current shell when no process is running, or send EOF to a the running process |
 | Ctrl + Z   | Puts whatever you are running into a suspended background process. fg restores it |
 | Ctrl + _   | Undo the last command. (Underscore.  So it's actually Ctrl + Shift + minus) |
-| Ctrl + T   | Swap the last two characters before the cursor |
+| Ctrl + T   | Shkëmbe vendndodhjet e dy karaktereve të fundit para kursorit |
 | Ctrl + F   | Zhvendos kursorin një karakter përpara. |
 | Ctrl + B   | Zhvendos kursorin një karakter pas. |
 | Option + →  | Zhvendos kursorin një fjalë përpara. |
@@ -88,23 +88,23 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| touch [file] |   Create a new file |
+| touch [skedari] |   Krijo një skedar të ri |
 | pwd | Full path to working directory |
-| . |  Current folder, e.g. `ls .` |
-| .. | Parent/enclosing directory, e.g. `ls ..` |
-| ls -l .. | Long listing of parent directory |
-| cd ../../ | Move 2 levels up |
+| . |  Direktoria aktuale, p.sh. `ls .` |
+| .. | Direktoria prind, p.sh. `ls ..` |
+| ls -l .. | Listim i gjatë i direktorisë prind |
+| cd ../../ | Zhvendosu 2 nivele më lartë |
 | cat | Concatenate to screen |
-| rm [file] |  Remove a file, e.g. `rm data.tmp` |
-| rm -i [file] | Remove with confirmation |
-| rm -r [dir] | Remove a directory and contents |
-| rm -f [file] | Force removal without confirmation |
-| cp [file] [newfile] | Copy file to file |
-| cp [file] [dir] | Copy file to directory |
-| mv [file] [new filename] |  Move/Rename, e.g. `mv file1.ad /tmp` |
-| pbcopy < [file] | Copies file contents to clipboard |
+| rm [skedari] |  Fshi një skedar, p.sh. `rm data.tmp` |
+| rm -i [skedari] | Fshi duke konfirmuar |
+| rm -r [dir] | Fshi një direktori dhe përmbajtjen e saj |
+| rm -f [skedari] | Fshi me forcë pa konfirmim |
+| cp [skedari] [skedari-i-ri] | Kopjo skedarin në skedarin e ri |
+| cp [skedari] [dir] | Kopjo skedarin në direktori |
+| mv [skedari] [emri i ri] |  Zhvendos/Riemërto, p.sh. `mv file1.ad /tmp` |
+| pbcopy < [skedari] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
-| pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
+| pbpaste > [skedari] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
 
 
 ## MENAXHIMI I DIREKTORIVE
@@ -115,10 +115,10 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | mkdir -p [dir]/[dir] |  Krijo direktori të ndërthurura (direktori brenda direktorisë) |
 | rmdir [dir] | Fshi direktorinë ( operon vetëm në direktori boshe ) |
 | rm -R [dir] | Fshi direktorinë dhe përmbajtjen e saj |
-| less [file]|  Output file content delivered in screensize chunks |
-| [command] > [file] |  Push output to file, keep in mind it will get overwritten |
-| [command] >> [file] | Append output to existing file |
-| [command] < [file] |  Tell command to read content from a file |
+| less [skedari]|  Output file content delivered in screensize chunks |
+| [komanda] > [skedari] |  Push output to file, keep in mind it will get overwritten |
+| [komanda] >> [skedari] | Append output to existing file |
+| [komanda] < [skedari] |  Tell command to read content from a file |
 
 
 ## KËRKIM
