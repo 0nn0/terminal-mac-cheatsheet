@@ -88,13 +88,13 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| touch [skedari] |   Krijo një skedar të ri |
-| pwd | Full path to working directory |
+| touch [skedari] | Krijo një skedar të ri |
+| pwd | Afisho adresën e plotë e direktorisë aktuale |
 | . |  Direktoria aktuale, p.sh. `ls .` |
 | .. | Direktoria prind, p.sh. `ls ..` |
 | ls -l .. | Listim i gjatë i direktorisë prind |
 | cd ../../ | Zhvendosu 2 nivele më lartë |
-| cat | Concatenate to screen |
+| cat | Bashkangjit në ekran |
 | rm [skedari] |  Fshi një skedar, p.sh. `rm data.tmp` |
 | rm -i [skedari] | Fshi duke konfirmuar |
 | rm -r [dir] | Fshi një direktori dhe përmbajtjen e saj |
@@ -102,9 +102,9 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | cp [skedari] [skedari-i-ri] | Kopjo skedarin në skedarin e ri |
 | cp [skedari] [dir] | Kopjo skedarin në direktori |
 | mv [skedari] [emri i ri] |  Zhvendos/Riemërto, p.sh. `mv file1.ad /tmp` |
-| pbcopy < [skedari] | Copies file contents to clipboard |
-| pbpaste | Paste clipboard contents |
-| pbpaste > [skedari] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
+| pbcopy < [skedari] | Kopjo përmbajtjen e skedarit në clipboard |
+| pbpaste | Ngjit/Shkruaj përmbajtjen e clipboard |
+| pbpaste > [skedari] | Ngjit/Shkruaj përmbajtjen e clipboard në një skedar, `pbpaste > paste-test.txt` |
 
 
 ## MENAXHIMI I DIREKTORIVE
