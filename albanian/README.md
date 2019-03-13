@@ -14,22 +14,22 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | Ctrl + E   | Shko në fund të rreshtit që je duke shkruar. Kjo funksionon edhe për shumicën e inputeve text në mbarë sistemin. Netbeans përbën përjashtim |
 | Ctrl + L   | Pastron/Fshin ekranin |
 | Cmd + K    | Pastron/Fshin ekranin |
-| Ctrl + U   | Cut everything backwards to beginning of line |
-| Ctrl + K   | Cut everything forward to end of line |
-| Ctrl + W   | Cut one word backwards using white space as delimiter |
+| Ctrl + U   | Prij përmbajtjen nga pozicioni aktual i kursorit deri në fillim të rreshtit |
+| Ctrl + K   | Prij përmbajtjen nga pozicioni aktual i kursorit deri në fund të rreshtit |
+| Ctrl + W   | Prij një fjalë para nga pozicioni aktual i kursorit |
 | Ctrl + Y   | Ngjit çfarëdo që është prerë në përdorimin e fundit të komandës prij/cut. |
 | Ctrl + H   | E njëjtë me komandën backspace |
-| Ctrl + C   | Kill whatever you are running.  Also clears everything on current line |
-| Ctrl + D   | Exit the current shell when no process is running, or send EOF to a the running process |
-| Ctrl + Z   | Puts whatever you are running into a suspended background process. fg restores it |
-| Ctrl + _   | Undo the last command. (Underscore.  So it's actually Ctrl + Shift + minus) |
+| Ctrl + C   | Ndalo çfarëdo që je duke ekzekutuar në konsolë.  Gjithashtu fshin përmbajtjen e rreshtit aktual |
+| Ctrl + D   | Dil nga terminali shell kur asnjë proçes nuk është duke punuar, ose dërgo sinjalin EOF proçesit që është duke punuar |
+| Ctrl + Z   | Vendos çfarëdo që është duke u ekzekutuar në një proçes të pezulluar në background |
+| Ctrl + _   | Kthe përsëri komandën e fundit. (Vijë poshtë.  Pra realisht është Ctrl + Shift + minus) |
 | Ctrl + T   | Shkëmbe vendndodhjet e dy karaktereve të fundit para kursorit |
 | Ctrl + F   | Zhvendos kursorin një karakter përpara. |
 | Ctrl + B   | Zhvendos kursorin një karakter pas. |
 | Option + →  | Zhvendos kursorin një fjalë përpara. |
 | Option + ←  | Zhvendos kursorin një fjalë pas. |
 | Esc + T  | Shkëmbe vendndodhjet e dy fjalëve të fundit para kursorit |
-| Esc + Backspace | Cut one word backwards using none alphabetic characters as delimiters |
+| Esc + Backspace | Prij një fjalë para nga pozicioni aktual i kursorit duke përdorur si ndarës karaktere jo shkronja |
 | Tab  | Kompleto automatikisht emrat e skedarëve dhe direktorive |
 
 
@@ -37,7 +37,7 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| cd [direktoria] | Ndrysho direktorinë e.g. `cd Documents` |
+| cd [direktoria] | Ndrysho direktorinë p.sh. `cd Documents` |
 | cd |  direktoria bazë (Home) |
 | cd ~ |  direktoria bazë (Home) |
 | cd /  | Rrënja e diskut |
@@ -125,12 +125,12 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| find [dir] -name [fjala-kyçe] | Kërko për skedarë, e.g. `find /Users -name "file.txt"` |
-| grep [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që përmbajnë fjalën kyçe, e.g. `grep "Tom" file.txt` |
+| find [dir] -name [fjala-kyçe] | Kërko për skedarë, p.sh. `find /Users -name "file.txt"` |
+| grep [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që përmbajnë fjalën kyçe, p.sh. `grep "Tom" file.txt` |
 | grep -r [fjala-kyçe] [dir] | Rekursivisht kërko në të gjithë skedarët në direktorinë e specifikuar për të gjitha rreshtat që përmbajnë fjalën kyçe |
 | grep -v [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që NUK përmbajnë fjalën kyçe |
 | grep -i [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që përmbajnë fjalën kyçe ekzakte (Kapitalizimi i shkronjave ka rëndësi) |
-| mdfind [fjala-kyçe] | Kërkim i shpejtë për skedarë (emri, përmbajtja, metadata të tjera), e.g. `mdfind skateboard` |
+| mdfind [fjala-kyçe] | Kërkim i shpejtë për skedarë (emri, përmbajtja, metadata të tjera), p.sh. `mdfind skateboard` |
 | mdfind -onlyin [dir] -name [fjala-kyçe] | Kërkim i shpejtë për skedarë të emëruar si paterni në direktorinë e dhënë |
 
 
