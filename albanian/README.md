@@ -125,13 +125,13 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 
 |   Komanda  |   Përshkrimi |
 | ----------- | ----------- |
-| find [dir] -name [shprehja-] | Kërko për skedarë, e.g. `find /Users -name "file.txt"` |
-| grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
-| grep -r [search_pattern] [dir] | Recursively search in all files in specified directory for all lines that contain the pattern |
-| grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
-| grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
-| mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
-| mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
+| find [dir] -name [fjala-kyçe] | Kërko për skedarë, e.g. `find /Users -name "file.txt"` |
+| grep [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që përmbajnë fjalën kyçe, e.g. `grep "Tom" file.txt` |
+| grep -r [fjala-kyçe] [dir] | Rekursivisht kërko në të gjithë skedarët në direktorinë e specifikuar për të gjitha rreshtat që përmbajnë fjalën kyçe |
+| grep -v [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që NUK përmbajnë fjalën kyçe |
+| grep -i [fjala-kyçe] [skedari] | Kërko për të gjitha rreshtat që përmbajnë fjalën kyçe ekzakte (Kapitalizimi i shkronjave ka rëndësi) |
+| mdfind [fjala-kyçe] | Kërkim i shpejtë për skedarë (emri, përmbajtja, metadata të tjera), e.g. `mdfind skateboard` |
+| mdfind -onlyin [dir] -name [fjala-kyçe] | Kërkim i shpejtë për skedarë të emëruar si paterni në direktorinë e dhënë |
 
 
 ## NDIHMË
