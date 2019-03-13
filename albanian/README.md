@@ -113,12 +113,12 @@ _Shkronjat janë në versionin kapital për t'u lexuar më lehtë._  _Butoni Cap
 | ----------- | ----------- |
 | mkdir [dir] | Krijo direktori të re |
 | mkdir -p [dir]/[dir] |  Krijo direktori të ndërthurura (direktori brenda direktorisë) |
-| rmdir [dir] | Fshi direktorinë ( operon vetëm në direktori boshe ) |
+| rmdir [dir] | Fshi direktorinë (operon vetëm në direktori boshe) |
 | rm -R [dir] | Fshi direktorinë dhe përmbajtjen e saj |
-| less [skedari]|  Output file content delivered in screensize chunks |
-| [komanda] > [skedari] |  Push output to file, keep in mind it will get overwritten |
-| [komanda] >> [skedari] | Append output to existing file |
-| [komanda] < [skedari] |  Tell command to read content from a file |
+| less [skedari]|  Afisho përmbajtjen e skedarit në copa të barabarta me madhësinë e ekranit |
+| [komanda] > [skedari] |  Vendos outputin në skedar, kij parasysh që përmbajta do të mbishkruhet |
+| [komanda] >> [skedari] | Shto outputin në një skedar ekzistues (shtim në fund) |
+| [komanda] < [skedari] |  Udhëzo komandën të lexojë përmbajtjen nga skedari |
 
 
 ## KËRKIM
