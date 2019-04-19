@@ -11,6 +11,7 @@
 - [Korean](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean)
 - [French](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/french)
 - [Shqip (Albanian)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/albanian)
+- [Spanish (Spanish)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/spanish)
 
 
 ------------
