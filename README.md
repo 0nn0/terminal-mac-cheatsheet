@@ -12,6 +12,7 @@
 - [French](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/french)
 - [Shqip (Albanian)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/albanian)
 - [Spanish (Español)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/spanish)
+- [Ukrainian](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/ukrainian)
 
 
 ------------
