@@ -1,24 +1,27 @@
 # Terminal Cheatsheet for Mac (Basics)
 
+This cheatsheet is available in many languages. Since the translation rely on volunteers, the content between the available languages may vary. Choose one below:
 
+- [English Version](#english-version)
+- [Version en Español](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Español)
+- [Version Française](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Français)
+- [Wersja Polska](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Polskie)
+- [Versão em Português](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Português)
+- [Versioni Shqip](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Shqiptar)
+- [Phiên bản Tiếng Việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Tiếng%20Việt)
+- [Türkçe Versiyonu](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Türk)
+- [Русская Версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/русский)
+- [Українська Версія](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Українська)
+- [한국어판](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
+- [中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/한국어)
 
-- [Polska wersja](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/polish)
-- [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
-- [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
-- [Phiên bản tiếng việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/tieng-viet)
-- [Русская версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/russian)
-- [中文](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
-- [Korean](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/korean)
-- [French](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/french)
-- [Shqip (Albanian)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/albanian)
-- [Spanish (Español)](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/spanish)
-- [Ukrainian](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/ukrainian)
+## English Version
 
+_Letters are shown capitalized for readability only._  _Capslock should be off._
 
 ------------
 
-_Letters are shown capitalized for readability only._  _Capslock should be off._
-## SHORTCUTS
+### SHORTCUTS
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -44,7 +47,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Esc + Backspace | Cut one word backwards using none alphabetic characters as delimiters |
 | Tab  | Auto-complete files and folder names |
 
-## CORE COMMANDS
+### CORE COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -66,7 +69,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | clear |  Clears the screen |
 | reset |  Resets the terminal display |
 
-## CHAINING COMMANDS
+### CHAINING COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -76,14 +79,14 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | [command-a] & | Run command A in background |
 
 
-## PIPING COMMANDS
+### PIPING COMMANDS
 
 | Key/Command | Description |
 | ----------- | ----------- |
 | [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google |
 
 
-## COMMAND HISTORY
+### COMMAND HISTORY
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -94,7 +97,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | !! |  Execute the last command typed |
 | !!:p |  Print to the console the last command typed |
 
-## FILE MANAGEMENT
+### FILE MANAGEMENT
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -116,7 +119,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
 
-## DIRECTORY MANAGEMENT
+### DIRECTORY MANAGEMENT
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -129,7 +132,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | [command] >> [file] | Append output to existing file |
 | [command] < [file] |  Tell command to read content from a file |
 
-## SEARCH
+### SEARCH
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -141,7 +144,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
 | mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
 
-## HELP
+### HELP
 
 | Key/Command | Description |
 | ----------- | ----------- |
