@@ -154,3 +154,9 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | man [command] |  Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
 | apropos [search-pattern] | Searches for command with keywords in description |
+
+### GIT
+
+For Git related commmands you can check my [git-basics-cheatsheet](https://github.com/0nn0/git-basics-cheatsheet)
+
+
