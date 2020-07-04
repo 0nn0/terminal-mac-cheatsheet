@@ -14,6 +14,7 @@ This cheatsheet is available in many languages. Since the translation rely on vo
 - [Українська Версія](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Українська)
 - [한국어판](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/한국어)
 - [中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
+- [日本語](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/日本語)
 
 ## English Version
 
