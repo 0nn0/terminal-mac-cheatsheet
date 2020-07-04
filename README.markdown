@@ -10,7 +10,7 @@ This cheatsheet is available in many languages. Since the translation rely on vo
 - [Versioni Shqip](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Shqiptar)
 - [Phiên bản Tiếng Việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Tiếng%20Việt)
 - [Türkçe Versiyonu](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Türk)
-- [Русская Версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/русский)
+- [Русская Версия](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Русский)
 - [Українська Версія](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Українська)
 - [한국어판](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/한국어)
 - [中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
