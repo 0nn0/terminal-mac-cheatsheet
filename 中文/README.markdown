@@ -63,30 +63,19 @@ Modified translation by [kestory](https://github.com/kestory)
 | [command-a] & | 在后台执行命令 a |
 
 
-## 命令管道
+## 管道命令
 
 | Key/Command | Description |
 | ----------- | ----------- |
 | [command-a] \| [command-b] | 运行命令 a，然后将结果给命令 b，例如 `ps auxwww | grep google` |
 
 
-## 管道命令
-
-| 按键/命令 | 描述 |
-| -------- | ---- |
-| history n | 列出最近执行过的 n 条命令 |
-| ctrl-r | 检索之前执行过的命令 |
-| ![value] | 执行最近以 `value` 开始的命令 |
-| ![value]:p | 显示最近以 `value` 开始的命令 |
-| !! | 执行最后一次执行的命令 |
-| !!:p |  显示最后一次执行的命令 |
-
 ## 命令历史
 
 | 按键/命令 | 描述 |
 | -------- | ---- |
 | history n |  列出最近执行过的n条命令 |
-| ctrl-r |  交互式检索之前执行过的命令 |
+| Ctrl + r |  交互式检索之前执行过的命令 |
 | ![value] |  执行最近以'value'开始的命令 |
 | ![value]:p |  将最近以'value'开始的命令打印到终端 |
 | !! |  执行上一条命令 |
