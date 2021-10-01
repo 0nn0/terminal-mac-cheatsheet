@@ -15,6 +15,7 @@ This cheatsheet is available in many languages. Since the translation rely on vo
 - [한국어판](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/한국어)
 - [中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
 - [日本語](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/日本語)
+- [Bahasa Indonesia](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Indonesia)
 
 ## English Version
 
@@ -159,5 +160,3 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 ### GIT
 
 For Git related commmands you can check my [git-basics-cheatsheet](https://github.com/0nn0/git-basics-cheatsheet)
-
-
