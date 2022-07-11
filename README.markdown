@@ -16,6 +16,7 @@ This cheatsheet is available in many languages. Since the translation rely on vo
 - [中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/中文)
 - [日本語](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/日本語)
 - [繁體中文版](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/繁體中文)
+- [Bahasa Indonesia](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/Indonesia)
 
 ## English Version
 
